@@ -1,0 +1,46 @@
+body {
+    width:100vw;
+    height:100vh;
+    margin:0;
+    padding:0;
+    display:grid;
+    grid-template-rows: 1fr 4fr 2fr;
+   background: linear-gradient(to right, #2E6F95, #455E89, #5C4D7D, #723C70, #892B64);
+}
+
+body > header {
+      border-bottom: solid white;
+      display:grid;
+     
+}
+
+
+body > header > nav > ul {
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    list-style:none;
+    height : 100%;
+    margin:0;
+    padding:0;
+}
+
+body > header > nav > ul > li {
+    align-self:center;
+}
+
+body > header > nav > ul > li a {
+    color:white;
+    text-decoration: none;
+
+
+
+body > main {
+    
+    
+}
+
+body > footer{
+    background-color:white;
+    
+    
+}
